@@ -17,17 +17,24 @@ https://docs.docker.com/engine/install/
 
 ### 3. **Setup project:**
 
-```make start
-http://localhost:3000` to access API
+```
+make start
 ```
 
-### 4. **Generate swagger docs:**
+### 4. **Running project:**
 
-```make validate-swagger
+```
+make run http://localhost:3000 to access API doc
+```
+
+### 5. **Generate swagger docs:**
+
+```
+make validate-swagger
 http://localhost:3000/api-docs to access API doc
 ```
 
-### 5. **Running Unit:**
+### 6. **Running Unit:**
 
 `make test`
 
