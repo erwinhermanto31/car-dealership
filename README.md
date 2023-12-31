@@ -24,15 +24,18 @@ make start
 ### 4. **Running project:**
 
 ```
-make run http://localhost:3000 to access API doc
+make run
 ```
+
+http://localhost:3000 to access API doc
 
 ### 5. **Generate swagger docs:**
 
 ```
 make validate-swagger
-http://localhost:3000/api-docs to access API doc
 ```
+
+http://localhost:3000/api-docs to access API doc
 
 ### 6. **Running Unit:**
 
