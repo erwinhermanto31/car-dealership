@@ -74,7 +74,3 @@ http://localhost:3000/api-docs to access API doc
 - Separated user and car services to adhere to the principle of separation of concerns.
 
 Feel free to explore the codebase and make any necessary adjustments based on your specific needs.
-
-```
-
-```
