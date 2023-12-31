@@ -1,0 +1,25 @@
+{
+  "name": "car-dealership",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:erwinhermanto31/car-dealership.git",
+  "author": "erwin hermanto <erwin.hermanto@bobobox.co.id>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.2",
+    "sequelize-cli": "^6.6.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "generate-swagger": "node_modules/.bin/swagger-jsdoc -d src/swagger.js -o swagger.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: corplabs
+      POSTGRES_USER: corplabs_user
+      POSTGRES_PASSWORD: corplabs_password
+    ports:
+      - "5439:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
