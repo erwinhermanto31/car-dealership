@@ -6,25 +6,25 @@ This is a simple car dealership application where users can register, record car
 
 1. **Clone the Repository:**
 
-  ```bash
-  git clone https://github.com/erwinhermanto31/car-dealership
-  cd car-dealership
+````bash
+git clone https://github.com/erwinhermanto31/car-dealership
+cd car-dealership
 
 2. **Install Docker:**
-  https://docs.docker.com/engine/install/
+https://docs.docker.com/engine/install/
 
 3. **Setup project:**
-  ```make start
-  `http://localhost:3000` to access API
+```make start
+`http://localhost:3000` to access API
 
 4. **Generate swagger docs:**
-  ```make validate-swagger
-  http://localhost:3000/api-docs to access API doc
+```make validate-swagger
+http://localhost:3000/api-docs to access API doc
 
 5. **Running Unit:**
-  ```make test
+```make test
 
-# Main Technical Decisions
+## Main Technical Decisions
 
 ## Express.js:
 
@@ -44,7 +44,7 @@ This is a simple car dealership application where users can register, record car
 - Integrated Swagger for API documentation.
 - Access Swagger UI at [http://localhost:3000/api-docs](http://localhost:3000/api-docs) after running the application.
 
-# Relevant Comments about the Project
+## Relevant Comments about the Project
 
 ## Business Rules:
 
@@ -67,3 +67,4 @@ This is a simple car dealership application where users can register, record car
 - Separated user and car services to adhere to the principle of separation of concerns.
 
 Feel free to explore the codebase and make any necessary adjustments based on your specific needs.
+````
